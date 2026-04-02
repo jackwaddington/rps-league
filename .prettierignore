@@ -1,0 +1,6 @@
+node_modules
+dist
+build
+rps-app/games.db
+rps-app/games.db.backup
+rps-app/api-stress-results.tsv

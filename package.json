@@ -1,0 +1,25 @@
+{
+  "name": "rps-league",
+  "version": "1.0.0",
+  "description": "A live Rock-Paper-Scissors league dashboard. Ingests game data from the Reaktor API, stores it in SQLite, and serves a React frontend with leaderboards, player stats, and data health monitoring.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix back\" \"npm run dev --prefix front\"",
+    "install:all": "npm install --prefix back && npm install --prefix front"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackwaddington/rps-league.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jackwaddington/rps-league/issues"
+  },
+  "homepage": "https://github.com/jackwaddington/rps-league#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

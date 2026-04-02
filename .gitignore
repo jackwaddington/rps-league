@@ -1,0 +1,7 @@
+.env
+node_modules/
+*.db
+*.db.backup
+*.tsv
+.DS_Store
+videos/
